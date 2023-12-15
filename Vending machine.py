@@ -65,7 +65,7 @@ if choice in items:
             payment = float(input(f"Please insert Dhs {amount:.2f}: "))
             if payment >= amount:
                 balance = payment - amount
-                print(f"Thank you for purchasing! Your balance is ${balance:.2f}.")
+                print(f"Thank you for purchasing! Your balance is Dhs{balance:.2f}.")
                 break
             else:
                 print("Insufficient payment. Please insert more money.")
@@ -74,4 +74,5 @@ if choice in items:
             print("Invalid payment amount. Please enter a valid number.")
 else:
     print("Invalid selection. Please try again.")
+    
 
