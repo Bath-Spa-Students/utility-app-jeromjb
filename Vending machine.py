@@ -57,7 +57,7 @@ choice = input("Enter the item no. you wish for...")
 
 if choice in items:
     choice_item = items [choice]
-    print ("Your item is {choice_item['name']}.")
+    print ("Your item is ",{choice_item['name']})
     amount = choice_item['price']
 
     while amount > 0:
